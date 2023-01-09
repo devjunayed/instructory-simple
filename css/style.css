@@ -1,0 +1,61 @@
+/* Reset Code */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 14px;
+  line-height: 22px;
+}
+.area{
+  width: 1000px;
+  margin: 0px auto;
+}
+img{
+  width: 100%;
+}
+.fix:before,
+.fix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.header{
+  background-color: #ddd;
+  padding: 20px 10px;
+}
+.logo{
+  float: left;
+  width: 250px;
+  margin-right: 30px;
+}
+.logo a{}
+.logo a img{}
+.menu{
+  float: right;
+  width: 700px;
+}
+.menu ul{
+  list-style-type: none;
+  text-align: right;
+  margin-top: 14px;
+
+}
+.menu ul li{
+  display: inline-block;
+}
+.menu ul li a{
+  color: #333;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  font-size: 20px;
+  transition: .3s;
+}
+.menu ul li a:hover{
+  background-color: tomato;
+  color: #fff;
+}
+.banner{}
+.banner img{}
